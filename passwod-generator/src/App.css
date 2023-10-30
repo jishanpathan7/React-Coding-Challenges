@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  background-color: #24232b;
+  padding: 24px;
+  border-radius: 6px;
+}
+.header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #2a8b8b;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+}
+.copyBtn {
+  height: 40px;
+  font-size: 14px;
+}
+
+.charLength {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 24px;
+}
+
+.charLength span {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 24px;
+  padding-top: 10px;
+}
+.checkBoxes {
+  display: grid;
+  grid-template-columns: auto auto;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  padding-bottom: 20px;
+}
+.checkBoxes div {
+  display: flex;
+  gap: 5px;
+  padding-bottom: 25px;
+}
+
+.error {
+  color: red;
+  padding: 10px;
+}
+
+.generateBtn {
+  width: 100%;
+  padding: 20px;
+  font-size: 20px;
+}
+.password-check {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  padding: 10px;
+}
